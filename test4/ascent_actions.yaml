@@ -1,0 +1,31 @@
+#
+# This actions file tests:
+#  Rendering a Contour of Ey
+#  Volume Rendering Ey
+#  Rendering the Electrons Particle mesh
+#  Exporting Blueprint HDF5 files
+#
+-
+  action: add_pipelines
+  pipelines:
+    contour_pipeline:
+      f0:
+        params:
+          field: Ey
+          levels: 16
+          use_contour_tree: false 
+        type: contour
+-
+  action: add_scenes
+  scenes:
+    ey_contour_pc:
+      plots:
+        p0:
+          field: Ey
+          pipeline: contour_pipeline
+          type: pseudocolor
+      renders:
+        r1:
+          camera:
+            azimuth: 90.0
+          image_prefix: "ey_contour_pc_"

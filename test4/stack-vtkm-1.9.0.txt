@@ -1,0 +1,41 @@
+gdb) bt
+#0  0x00007fffdf9b8cdb in raise () from /lib64/libc.so.6
+#1  0x00007fffdf9ba375 in abort () from /lib64/libc.so.6
+#2  0x00007fffdf9feb07 in __libc_message () from /lib64/libc.so.6
+#3  0x00007fffdfa06b8a in malloc_printerr () from /lib64/libc.so.6
+#4  0x00007fffdfa07456 in unlink_chunk.isra () from /lib64/libc.so.6
+#5  0x00007fffdfa075d3 in malloc_consolidate () from /lib64/libc.so.6
+#6  0x00007fffdfa09bf0 in _int_malloc () from /lib64/libc.so.6
+#7  0x00007fffdfa0b4f4 in malloc () from /lib64/libc.so.6
+#8  0x00007fffdfa939d4 in backtrace_symbols () from /lib64/libc.so.6
+#9  0x00007fffe97dcb5b in (anonymous namespace)::loguru::stacktrace_as_stdstring[abi:cxx11](int) (skip=4)
+    at /ccs/home/aessiari/proj-shared/ASCENT_MARCH_2023/vtk-m-v1.9.0/vtkm/thirdparty/loguru/vtkmloguru/loguru.cpp:1060
+#10 (anonymous namespace)::loguru::stacktrace (skip=skip@entry=3) at /ccs/home/aessiari/proj-shared/ASCENT_MARCH_2023/vtk-m-v1.9.0/vtkm/thirdparty/loguru/vtkmloguru/loguru.cpp:1115
+#11 0x00007fffe97dc7c9 in (anonymous namespace)::loguru::log_message (stack_trace_skip=stack_trace_skip@entry=1, message=..., with_indentation=false, abort_if_fatal=false)
+    at /ccs/home/aessiari/proj-shared/ASCENT_MARCH_2023/vtk-m-v1.9.0/vtkm/thirdparty/loguru/vtkmloguru/loguru.cpp:1217
+#12 0x00007fffe97f77ab in (anonymous namespace)::loguru::signal_handler (signal_number=6)
+    at /ccs/home/aessiari/proj-shared/ASCENT_MARCH_2023/vtk-m-v1.9.0/vtkm/thirdparty/loguru/vtkmloguru/loguru.cpp:1783
+#13 <signal handler called>
+#14 0x00007fffdf9b8cdb in raise () from /lib64/libc.so.6
+#15 0x00007fffdf9ba375 in abort () from /lib64/libc.so.6
+#16 0x00007fffdf9feb07 in __libc_message () from /lib64/libc.so.6
+#17 0x00007fffdfa06b8a in malloc_printerr () from /lib64/libc.so.6
+#18 0x00007fffdfa06e5c in munmap_chunk () from /lib64/libc.so.6
+#19 0x00007fffe3d6fc5b in conduit::Schema::~Schema() () from /ccs/home/aessiari/proj-shared/ASCENT_MARCH_2023/install/conduit-v0.8.3/lib/libconduit.so
+#20 0x00007fffe3d6fc53 in conduit::Schema::~Schema() () from /ccs/home/aessiari/proj-shared/ASCENT_MARCH_2023/install/conduit-v0.8.3/lib/libconduit.so
+#21 0x00007fffe3d6fc53 in conduit::Schema::~Schema() () from /ccs/home/aessiari/proj-shared/ASCENT_MARCH_2023/install/conduit-v0.8.3/lib/libconduit.so
+#22 0x00007fffe3ceb5c2 in conduit::Node::~Node() () from /ccs/home/aessiari/proj-shared/ASCENT_MARCH_2023/install/conduit-v0.8.3/lib/libconduit.so
+#23 0x00007fffed04d2bd in ascent::AscentRuntime::~AscentRuntime (this=0x32eb410)
+    at /ccs/home/aessiari/proj-shared/ASCENT_MARCH_2023/ascent-v0.9.0/src/libs/ascent/runtimes/ascent_main_runtime.cpp:121
+#24 0x00007fffed049a89 in ascent::AscentRuntime::~AscentRuntime (this=0x2) at /ccs/home/aessiari/proj-shared/ASCENT_MARCH_2023/ascent-v0.9.0/src/libs/ascent/runtimes/ascent_main_runtime.cpp:119
+#25 0x00007fffed046c61 in ascent::Ascent::close (this=0x7fffffff5740) at /ccs/home/aessiari/proj-shared/ASCENT_MARCH_2023/ascent-v0.9.0/src/libs/ascent/ascent.cpp:498
+#26 0x00000000005a2808 in FlushFormatAscent::WriteToFile (this=<optimized out>, varnames=..., mf=..., geom=..., iteration=..., time=0, particle_diags=..., nlev=1, prefix=..., file_min_digits=6, 
+    plot_raw_fields=false, plot_raw_fields_guards=false, isBTD=<optimized out>) at /ccs/home/aessiari/proj-shared/ASCENT_MARCH_2023/WarpX/Source/Diagnostics/FlushFormats/FlushFormatAscent.cpp:65
+#27 0x00000000004ddcbc in FullDiagnostics::Flush (this=0x12071d0, i_buffer=<optimized out>) at /ccs/home/aessiari/proj-shared/ASCENT_MARCH_2023/WarpX/Source/Diagnostics/FullDiagnostics.cpp:131
+#28 0x00000000004dd2ba in Diagnostics::FilterComputePackFlush (this=0x12071d0, step=-1, force_flush=<optimized out>)
+    at /ccs/home/aessiari/proj-shared/ASCENT_MARCH_2023/WarpX/Source/Diagnostics/Diagnostics.cpp:494
+#29 0x00000000004e5196 in MultiDiagnostics::FilterComputePackFlush (this=0x12070d0, step=-1, force_flush=<optimized out>, BackTransform=<optimized out>)
+    at /ccs/home/aessiari/proj-shared/ASCENT_MARCH_2023/WarpX/Source/Diagnostics/MultiDiagnostics.cpp:89
+#30 0x0000000000743439 in WarpX::InitData (this=0x7fffffff6140) at /ccs/home/aessiari/proj-shared/ASCENT_MARCH_2023/WarpX/Source/Initialization/WarpXInitData.cpp:428
+#31 0x000000000034c8ca in main (argc=5, argv=0x7fffffff6fd8) at /ccs/home/aessiari/proj-shared/ASCENT_MARCH_2023/WarpX/Source/main.cpp:65
+
