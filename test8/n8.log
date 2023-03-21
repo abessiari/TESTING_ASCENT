@@ -1,0 +1,1190 @@
+MPI initialized with 8 MPI processes
+MPI initialized with thread support level 3
+OMP initialized with 1 OMP threads
+AMReX (23.03-3-g1ffc6e427e3a) initialized
+WarpX (23.03-12-ga80e103760fa)
+
+    __        __             __  __
+    \ \      / /_ _ _ __ _ __\ \/ /
+     \ \ /\ / / _` | '__| '_ \\  /
+      \ V  V / (_| | |  | |_) /  \
+       \_/\_/ \__,_|_|  | .__/_/\_\
+                        |_|
+
+Level 0: dt = 8.687655892e-16 ; dx = 1.874999953e-06 ; dy = 1.874999953e-06 ; dz = 2.656250047e-07
+
+Grids Summary:
+  Level 0   8 grids  262144 cells  100 % of domain
+            smallest grid: 32 x 32 x 32  biggest grid: 32 x 32 x 32
+
+-------------------------------------------------------------------------------
+--------------------------- MAIN EM PIC PARAMETERS ----------------------------
+-------------------------------------------------------------------------------
+Precision:            | SINGLE
+Particle precision:   | SINGLE
+Geometry:             | 3D (XYZ)
+Operation mode:       | Electromagnetic
+                      | - vacuum
+-------------------------------------------------------------------------------
+Current Deposition:   | Esirkepov 
+Particle Pusher:      | Boris 
+Charge Deposition:    | standard 
+Field Gathering:      | energy-conserving 
+Particle Shape Factor:| 2
+-------------------------------------------------------------------------------
+Maxwell Solver:       | Yee 
+-------------------------------------------------------------------------------
+Moving window:        |    ON  
+                      |  - moving_window_dir = z 
+                      |  - moving_window_v = 299792448
+------------------------------------------------------------------------------- 
+For full input parameters, see the file: warpx_used_inputs
+
+--- INFO    : Writing Ascent file diags/diag1000000
+ey/contour/pc/p0 pseudocolor plot yielded no data, i.e., no cells remainSTEP 1 starts ...
+
+
+**** WARNINGS ******************************************************************
+* GLOBAL warning list  after  [ FIRST STEP ]
+*
+* No recorded warnings.
+********************************************************************************
+
+STEP 1 ends. TIME = 8.687655892e-16 DT = 8.687655892e-16
+Evolve time = 0.008599564433 s; This step = 0.008599564433 s; Avg. per step = 0.008599564433 s
+
+STEP 2 starts ...
+STEP 2 ends. TIME = 1.737531178e-15 DT = 8.687655892e-16
+Evolve time = 0.02080875635 s; This step = 0.01220919192 s; Avg. per step = 0.01040437818 s
+
+STEP 3 starts ...
+STEP 3 ends. TIME = 2.606296662e-15 DT = 8.687655892e-16
+Evolve time = 0.03187794983 s; This step = 0.01106919348 s; Avg. per step = 0.01062598359 s
+
+STEP 4 starts ...
+STEP 4 ends. TIME = 3.475062357e-15 DT = 8.687655892e-16
+Evolve time = 0.04289588332 s; This step = 0.01101793349 s; Avg. per step = 0.01072397083 s
+
+STEP 5 starts ...
+STEP 5 ends. TIME = 4.343828052e-15 DT = 8.687655892e-16
+Evolve time = 0.05394077301 s; This step = 0.01104488969 s; Avg. per step = 0.01078815479 s
+
+STEP 6 starts ...
+STEP 6 ends. TIME = 5.212593747e-15 DT = 8.687655892e-16
+Evolve time = 0.06512069702 s; This step = 0.01117992401 s; Avg. per step = 0.01085344981 s
+
+STEP 7 starts ...
+STEP 7 ends. TIME = 6.081359442e-15 DT = 8.687655892e-16
+Evolve time = 0.07614696026 s; This step = 0.01102626324 s; Avg. per step = 0.01087813731 s
+
+STEP 8 starts ...
+STEP 8 ends. TIME = 6.950125137e-15 DT = 8.687655892e-16
+Evolve time = 0.08719500899 s; This step = 0.01104804873 s; Avg. per step = 0.01089937612 s
+
+STEP 9 starts ...
+STEP 9 ends. TIME = 7.818890832e-15 DT = 8.687655892e-16
+Evolve time = 0.09822323918 s; This step = 0.01102823019 s; Avg. per step = 0.01091369335 s
+
+STEP 10 starts ...
+--- INFO    : Writing Ascent file diags/diag1000010
+STEP 10 ends. TIME = 8.687656104e-15 DT = 8.687655892e-16
+Evolve time = 0.4628490508 s; This step = 0.3646258116 s; Avg. per step = 0.04628490657 s
+
+STEP 11 starts ...
+STEP 11 ends. TIME = 9.556421376e-15 DT = 8.687655892e-16
+Evolve time = 0.4715534151 s; This step = 0.0087043643 s; Avg. per step = 0.04286849126 s
+
+STEP 12 starts ...
+STEP 12 ends. TIME = 1.042518665e-14 DT = 8.687655892e-16
+Evolve time = 0.4826180637 s; This step = 0.01106464863 s; Avg. per step = 0.04021817073 s
+
+STEP 13 starts ...
+STEP 13 ends. TIME = 1.129395192e-14 DT = 8.687655892e-16
+Evolve time = 0.4936177433 s; This step = 0.01099967957 s; Avg. per step = 0.03797059506 s
+
+STEP 14 starts ...
+STEP 14 ends. TIME = 1.216271719e-14 DT = 8.687655892e-16
+Evolve time = 0.5047147274 s; This step = 0.01109701395 s; Avg. per step = 0.03605105355 s
+
+STEP 15 starts ...
+STEP 15 ends. TIME = 1.303148246e-14 DT = 8.687655892e-16
+Evolve time = 0.5156633258 s; This step = 0.01094859838 s; Avg. per step = 0.03437755629 s
+
+STEP 16 starts ...
+STEP 16 ends. TIME = 1.390024773e-14 DT = 8.687655892e-16
+Evolve time = 0.5266174078 s; This step = 0.01095408201 s; Avg. per step = 0.03291358799 s
+
+STEP 17 starts ...
+STEP 17 ends. TIME = 1.476901385e-14 DT = 8.687655892e-16
+Evolve time = 0.5375801325 s; This step = 0.01096272469 s; Avg. per step = 0.03162236139 s
+
+STEP 18 starts ...
+STEP 18 ends. TIME = 1.563777997e-14 DT = 8.687655892e-16
+Evolve time = 0.5485495329 s; This step = 0.01096940041 s; Avg. per step = 0.03047497384 s
+
+STEP 19 starts ...
+STEP 19 ends. TIME = 1.650654609e-14 DT = 8.687655892e-16
+Evolve time = 0.5594931841 s; This step = 0.0109436512 s; Avg. per step = 0.02944700979 s
+
+STEP 20 starts ...
+--- INFO    : Writing Ascent file diags/diag1000020
+STEP 20 ends. TIME = 1.737531221e-14 DT = 8.687655892e-16
+Evolve time = 0.922072053 s; This step = 0.3625788689 s; Avg. per step = 0.04610360414 s
+
+STEP 21 starts ...
+STEP 21 ends. TIME = 1.824407833e-14 DT = 8.687655892e-16
+Evolve time = 0.9326497316 s; This step = 0.01057767868 s; Avg. per step = 0.04441189021 s
+
+STEP 22 starts ...
+STEP 22 ends. TIME = 1.911284445e-14 DT = 8.687655892e-16
+Evolve time = 0.9438881874 s; This step = 0.01123845577 s; Avg. per step = 0.04290400818 s
+
+STEP 23 starts ...
+STEP 23 ends. TIME = 1.998161056e-14 DT = 8.687655892e-16
+Evolve time = 0.9548267126 s; This step = 0.0109385252 s; Avg. per step = 0.04151420668 s
+
+STEP 24 starts ...
+STEP 24 ends. TIME = 2.085037668e-14 DT = 8.687655892e-16
+Evolve time = 0.9657303095 s; This step = 0.01090359688 s; Avg. per step = 0.04023876414 s
+
+STEP 25 starts ...
+STEP 25 ends. TIME = 2.17191428e-14 DT = 8.687655892e-16
+Evolve time = 0.9766340256 s; This step = 0.01090371609 s; Avg. per step = 0.03906536102 s
+
+STEP 26 starts ...
+STEP 26 ends. TIME = 2.258790892e-14 DT = 8.687655892e-16
+Evolve time = 0.9875181913 s; This step = 0.01088416576 s; Avg. per step = 0.03798146918 s
+
+STEP 27 starts ...
+STEP 27 ends. TIME = 2.345667504e-14 DT = 8.687655892e-16
+Evolve time = 0.9983776808 s; This step = 0.01085948944 s; Avg. per step = 0.03697695211 s
+
+STEP 28 starts ...
+STEP 28 ends. TIME = 2.432544116e-14 DT = 8.687655892e-16
+Evolve time = 1.009230494 s; This step = 0.01085281372 s; Avg. per step = 0.0360439457 s
+
+STEP 29 starts ...
+STEP 29 ends. TIME = 2.519420728e-14 DT = 8.687655892e-16
+Evolve time = 1.020062327 s; This step = 0.01083183289 s; Avg. per step = 0.03517456353 s
+
+STEP 30 starts ...
+--- INFO    : Writing Ascent file diags/diag1000030
+STEP 30 ends. TIME = 2.606297339e-14 DT = 8.687655892e-16
+Evolve time = 1.3259058 s; This step = 0.3058434725 s; Avg. per step = 0.044196859 s
+
+STEP 31 starts ...
+STEP 31 ends. TIME = 2.693173951e-14 DT = 8.687655892e-16
+Evolve time = 1.337094188 s; This step = 0.01118838787 s; Avg. per step = 0.04313207045 s
+
+STEP 32 starts ...
+STEP 32 ends. TIME = 2.780050563e-14 DT = 8.687655892e-16
+Evolve time = 1.347962856 s; This step = 0.01086866856 s; Avg. per step = 0.04212383926 s
+
+STEP 33 starts ...
+STEP 33 ends. TIME = 2.866927006e-14 DT = 8.687655892e-16
+Evolve time = 1.358785748 s; This step = 0.01082289219 s; Avg. per step = 0.04117532447 s
+
+STEP 34 starts ...
+STEP 34 ends. TIME = 2.953803448e-14 DT = 8.687655892e-16
+Evolve time = 1.369471788 s; This step = 0.01068603992 s; Avg. per step = 0.04027858377 s
+
+STEP 35 starts ...
+STEP 35 ends. TIME = 3.04067989e-14 DT = 8.687655892e-16
+Evolve time = 1.380309105 s; This step = 0.01083731651 s; Avg. per step = 0.03943740204 s
+
+STEP 36 starts ...
+STEP 36 ends. TIME = 3.127556333e-14 DT = 8.687655892e-16
+Evolve time = 1.391118526 s; This step = 0.01080942154 s; Avg. per step = 0.03864218295 s
+
+STEP 37 starts ...
+STEP 37 ends. TIME = 3.214432775e-14 DT = 8.687655892e-16
+Evolve time = 1.40192461 s; This step = 0.01080608368 s; Avg. per step = 0.03788985312 s
+
+STEP 38 starts ...
+STEP 38 ends. TIME = 3.301309218e-14 DT = 8.687655892e-16
+Evolve time = 1.412755132 s; This step = 0.01083052158 s; Avg. per step = 0.0371777676 s
+
+STEP 39 starts ...
+STEP 39 ends. TIME = 3.38818566e-14 DT = 8.687655892e-16
+Evolve time = 1.423642635 s; This step = 0.01088750362 s; Avg. per step = 0.0365036577 s
+
+STEP 40 starts ...
+--- INFO    : Writing Ascent file diags/diag1000040
+STEP 40 ends. TIME = 3.475062103e-14 DT = 8.687655892e-16
+Evolve time = 2.204204321 s; This step = 0.7805616856 s; Avg. per step = 0.05510510877 s
+
+STEP 41 starts ...
+STEP 41 ends. TIME = 3.561938545e-14 DT = 8.687655892e-16
+Evolve time = 2.215296745 s; This step = 0.01109242439 s; Avg. per step = 0.05403162912 s
+
+STEP 42 starts ...
+STEP 42 ends. TIME = 3.648814988e-14 DT = 8.687655892e-16
+Evolve time = 2.226020336 s; This step = 0.01072359085 s; Avg. per step = 0.05300048366 s
+
+STEP 43 starts ...
+STEP 43 ends. TIME = 3.73569143e-14 DT = 8.687655892e-16
+Evolve time = 2.236867666 s; This step = 0.01084733009 s; Avg. per step = 0.05202017725 s
+
+STEP 44 starts ...
+STEP 44 ends. TIME = 3.822567873e-14 DT = 8.687655892e-16
+Evolve time = 2.247651815 s; This step = 0.01078414917 s; Avg. per step = 0.05108299479 s
+
+STEP 45 starts ...
+STEP 45 ends. TIME = 3.909444315e-14 DT = 8.687655892e-16
+Evolve time = 2.258417845 s; This step = 0.01076602936 s; Avg. per step = 0.05018706247 s
+
+STEP 46 starts ...
+STEP 46 ends. TIME = 3.996320757e-14 DT = 8.687655892e-16
+Evolve time = 2.269187689 s; This step = 0.01076984406 s; Avg. per step = 0.04933016747 s
+
+STEP 47 starts ...
+STEP 47 ends. TIME = 4.0831972e-14 DT = 8.687655892e-16
+Evolve time = 2.280036211 s; This step = 0.01084852219 s; Avg. per step = 0.04851140827 s
+
+STEP 48 starts ...
+STEP 48 ends. TIME = 4.170073642e-14 DT = 8.687655892e-16
+Evolve time = 2.290809631 s; This step = 0.01077342033 s; Avg. per step = 0.04772520065 s
+
+STEP 49 starts ...
+STEP 49 ends. TIME = 4.256950085e-14 DT = 8.687655892e-16
+Evolve time = 2.301558018 s; This step = 0.01074838638 s; Avg. per step = 0.04697057232 s
+
+STEP 50 starts ...
+--- INFO    : Writing Ascent file diags/diag1000050
+STEP 50 ends. TIME = 4.343826527e-14 DT = 8.687655892e-16
+Evolve time = 2.770488501 s; This step = 0.4689304829 s; Avg. per step = 0.05540977046 s
+
+STEP 51 starts ...
+STEP 51 ends. TIME = 4.43070297e-14 DT = 8.687655892e-16
+Evolve time = 2.781579971 s; This step = 0.01109147072 s; Avg. per step = 0.05454078317 s
+
+STEP 52 starts ...
+STEP 52 ends. TIME = 4.517579412e-14 DT = 8.687655892e-16
+Evolve time = 2.791610479 s; This step = 0.01003050804 s; Avg. per step = 0.05368481576 s
+
+STEP 53 starts ...
+STEP 53 ends. TIME = 4.604455855e-14 DT = 8.687655892e-16
+Evolve time = 2.802393913 s; This step = 0.01078343391 s; Avg. per step = 0.05287535861 s
+
+STEP 54 starts ...
+STEP 54 ends. TIME = 4.691332297e-14 DT = 8.687655892e-16
+Evolve time = 2.813133717 s; This step = 0.01073980331 s; Avg. per step = 0.05209507048 s
+
+STEP 55 starts ...
+STEP 55 ends. TIME = 4.77820874e-14 DT = 8.687655892e-16
+Evolve time = 2.82397294 s; This step = 0.01083922386 s; Avg. per step = 0.05134496093 s
+
+STEP 56 starts ...
+STEP 56 ends. TIME = 4.865085182e-14 DT = 8.687655892e-16
+Evolve time = 2.834820747 s; This step = 0.01084780693 s; Avg. per step = 0.05062180012 s
+
+STEP 57 starts ...
+STEP 57 ends. TIME = 4.951961625e-14 DT = 8.687655892e-16
+Evolve time = 2.845565796 s; This step = 0.01074504852 s; Avg. per step = 0.04992220551 s
+
+STEP 58 starts ...
+STEP 58 ends. TIME = 5.038838067e-14 DT = 8.687655892e-16
+Evolve time = 2.856299162 s; This step = 0.01073336601 s; Avg. per step = 0.04924653843 s
+
+STEP 59 starts ...
+STEP 59 ends. TIME = 5.125714509e-14 DT = 8.687655892e-16
+Evolve time = 2.866939545 s; This step = 0.01064038277 s; Avg. per step = 0.04859219491 s
+
+STEP 60 starts ...
+--- INFO    : Writing Ascent file diags/diag1000060
+STEP 60 ends. TIME = 5.212590952e-14 DT = 8.687655892e-16
+Evolve time = 3.260519743 s; This step = 0.3935801983 s; Avg. per step = 0.05434199423 s
+
+STEP 61 starts ...
+STEP 61 ends. TIME = 5.299467394e-14 DT = 8.687655892e-16
+Evolve time = 3.271098375 s; This step = 0.01057863235 s; Avg. per step = 0.05362456292 s
+
+STEP 62 starts ...
+STEP 62 ends. TIME = 5.386343837e-14 DT = 8.687655892e-16
+Evolve time = 3.281355858 s; This step = 0.01025748253 s; Avg. per step = 0.05292509496 s
+
+STEP 63 starts ...
+STEP 63 ends. TIME = 5.473220279e-14 DT = 8.687655892e-16
+Evolve time = 3.291589499 s; This step = 0.01023364067 s; Avg. per step = 0.05224745348 s
+
+STEP 64 starts ...
+STEP 64 ends. TIME = 5.560096722e-14 DT = 8.687655892e-16
+Evolve time = 3.3015728 s; This step = 0.009983301163 s; Avg. per step = 0.051587075 s
+
+STEP 65 starts ...
+STEP 65 ends. TIME = 5.646973164e-14 DT = 8.687655892e-16
+Evolve time = 3.311839581 s; This step = 0.01026678085 s; Avg. per step = 0.05095137656 s
+
+STEP 66 starts ...
+STEP 66 ends. TIME = 5.733849945e-14 DT = 8.687655892e-16
+Evolve time = 3.322076797 s; This step = 0.01023721695 s; Avg. per step = 0.05033449829 s
+
+STEP 67 starts ...
+STEP 67 ends. TIME = 5.820726388e-14 DT = 8.687655892e-16
+Evolve time = 3.331940174 s; This step = 0.009863376617 s; Avg. per step = 0.04973044991 s
+
+STEP 68 starts ...
+STEP 68 ends. TIME = 5.90760283e-14 DT = 8.687655892e-16
+Evolve time = 3.341984749 s; This step = 0.01004457474 s; Avg. per step = 0.04914683476 s
+
+STEP 69 starts ...
+STEP 69 ends. TIME = 5.994479273e-14 DT = 8.687655892e-16
+Evolve time = 3.352176189 s; This step = 0.01019144058 s; Avg. per step = 0.04858226329 s
+
+STEP 70 starts ...
+--- INFO    : Writing Ascent file diags/diag1000070
+STEP 70 ends. TIME = 6.081355715e-14 DT = 8.687655892e-16
+Evolve time = 3.684989929 s; This step = 0.3328137398 s; Avg. per step = 0.05264271423 s
+
+STEP 71 starts ...
+STEP 71 ends. TIME = 6.168232158e-14 DT = 8.687655892e-16
+Evolve time = 3.695343256 s; This step = 0.0103533268 s; Avg. per step = 0.05204708874 s
+
+STEP 72 starts ...
+STEP 72 ends. TIME = 6.2551086e-14 DT = 8.687655892e-16
+Evolve time = 3.705538988 s; This step = 0.01019573212 s; Avg. per step = 0.05146582052 s
+
+STEP 73 starts ...
+STEP 73 ends. TIME = 6.341985043e-14 DT = 8.687655892e-16
+Evolve time = 3.715595007 s; This step = 0.01005601883 s; Avg. per step = 0.05089856312 s
+
+STEP 74 starts ...
+STEP 74 ends. TIME = 6.428861485e-14 DT = 8.687655892e-16
+Evolve time = 3.725434065 s; This step = 0.009839057922 s; Avg. per step = 0.05034370348 s
+
+STEP 75 starts ...
+STEP 75 ends. TIME = 6.515737928e-14 DT = 8.687655892e-16
+Evolve time = 3.735458374 s; This step = 0.01002430916 s; Avg. per step = 0.04980611056 s
+
+STEP 76 starts ...
+STEP 76 ends. TIME = 6.60261437e-14 DT = 8.687655892e-16
+Evolve time = 3.745495319 s; This step = 0.01003694534 s; Avg. per step = 0.04928283393 s
+
+STEP 77 starts ...
+STEP 77 ends. TIME = 6.689490812e-14 DT = 8.687655892e-16
+Evolve time = 3.755594969 s; This step = 0.01009964943 s; Avg. per step = 0.04877395928 s
+
+STEP 78 starts ...
+STEP 78 ends. TIME = 6.776367255e-14 DT = 8.687655892e-16
+Evolve time = 3.765820265 s; This step = 0.01022529602 s; Avg. per step = 0.04827974737 s
+
+STEP 79 starts ...
+STEP 79 ends. TIME = 6.863243697e-14 DT = 8.687655892e-16
+Evolve time = 3.776172876 s; This step = 0.01035261154 s; Avg. per step = 0.04779965803 s
+
+STEP 80 starts ...
+--- INFO    : Writing Ascent file diags/diag1000080
+STEP 80 ends. TIME = 6.95012014e-14 DT = 8.687655892e-16
+Evolve time = 4.076756954 s; This step = 0.3005840778 s; Avg. per step = 0.05095946044 s
+
+STEP 81 starts ...
+STEP 81 ends. TIME = 7.036996582e-14 DT = 8.687655892e-16
+Evolve time = 4.087292671 s; This step = 0.01053571701 s; Avg. per step = 0.05046040192 s
+
+STEP 82 starts ...
+STEP 82 ends. TIME = 7.123873025e-14 DT = 8.687655892e-16
+Evolve time = 4.097541809 s; This step = 0.01024913788 s; Avg. per step = 0.04997002333 s
+
+STEP 83 starts ...
+STEP 83 ends. TIME = 7.210749467e-14 DT = 8.687655892e-16
+Evolve time = 4.107713699 s; This step = 0.01017189026 s; Avg. per step = 0.04949052632 s
+
+STEP 84 starts ...
+STEP 84 ends. TIME = 7.29762591e-14 DT = 8.687655892e-16
+Evolve time = 4.117828846 s; This step = 0.01011514664 s; Avg. per step = 0.04902177304 s
+
+STEP 85 starts ...
+STEP 85 ends. TIME = 7.384502352e-14 DT = 8.687655892e-16
+Evolve time = 4.12796545 s; This step = 0.01013660431 s; Avg. per step = 0.04856429994 s
+
+STEP 86 starts ...
+STEP 86 ends. TIME = 7.471378795e-14 DT = 8.687655892e-16
+Evolve time = 4.13798666 s; This step = 0.01002120972 s; Avg. per step = 0.04811612517 s
+
+STEP 87 starts ...
+STEP 87 ends. TIME = 7.558255237e-14 DT = 8.687655892e-16
+Evolve time = 4.147967339 s; This step = 0.009980678558 s; Avg. per step = 0.04767778516 s
+
+STEP 88 starts ...
+STEP 88 ends. TIME = 7.645131679e-14 DT = 8.687655892e-16
+Evolve time = 4.158018112 s; This step = 0.01005077362 s; Avg. per step = 0.04725020751 s
+
+STEP 89 starts ...
+STEP 89 ends. TIME = 7.732008122e-14 DT = 8.687655892e-16
+Evolve time = 4.168115139 s; This step = 0.01009702682 s; Avg. per step = 0.04683275521 s
+
+STEP 90 starts ...
+--- INFO    : Writing Ascent file diags/diag1000090
+STEP 90 ends. TIME = 7.818884564e-14 DT = 8.687655892e-16
+Evolve time = 4.443560123 s; This step = 0.2754449844 s; Avg. per step = 0.0493728891 s
+
+STEP 91 starts ...
+STEP 91 ends. TIME = 7.905761007e-14 DT = 8.687655892e-16
+Evolve time = 4.454134464 s; This step = 0.01057434082 s; Avg. per step = 0.04894653335 s
+
+STEP 92 starts ...
+STEP 92 ends. TIME = 7.992637449e-14 DT = 8.687655892e-16
+Evolve time = 4.464276791 s; This step = 0.01014232635 s; Avg. per step = 0.04852474853 s
+
+STEP 93 starts ...
+STEP 93 ends. TIME = 8.079513892e-14 DT = 8.687655892e-16
+Evolve time = 4.474414825 s; This step = 0.01013803482 s; Avg. per step = 0.04811198637 s
+
+STEP 94 starts ...
+STEP 94 ends. TIME = 8.166390334e-14 DT = 8.687655892e-16
+Evolve time = 4.484639168 s; This step = 0.01022434235 s; Avg. per step = 0.04770892859 s
+
+STEP 95 starts ...
+STEP 95 ends. TIME = 8.253266777e-14 DT = 8.687655892e-16
+Evolve time = 4.494894981 s; This step = 0.0102558136 s; Avg. per step = 0.04731468484 s
+
+STEP 96 starts ...
+STEP 96 ends. TIME = 8.340143219e-14 DT = 8.687655892e-16
+Evolve time = 4.505049706 s; This step = 0.01015472412 s; Avg. per step = 0.0469276011 s
+
+STEP 97 starts ...
+STEP 97 ends. TIME = 8.427019662e-14 DT = 8.687655892e-16
+Evolve time = 4.515183926 s; This step = 0.01013422012 s; Avg. per step = 0.04654828832 s
+
+STEP 98 starts ...
+STEP 98 ends. TIME = 8.513896104e-14 DT = 8.687655892e-16
+Evolve time = 4.525053024 s; This step = 0.009869098663 s; Avg. per step = 0.04617401212 s
+
+STEP 99 starts ...
+STEP 99 ends. TIME = 8.600772546e-14 DT = 8.687655892e-16
+Evolve time = 4.535160542 s; This step = 0.01010751724 s; Avg. per step = 0.04580970109 s
+
+STEP 100 starts ...
+--- INFO    : Writing Ascent file diags/diag1000100
+STEP 100 ends. TIME = 8.687648989e-14 DT = 8.687655892e-16
+Evolve time = 4.790524483 s; This step = 0.2553639412 s; Avg. per step = 0.04790524393 s
+
+STEP 101 starts ...
+STEP 101 ends. TIME = 8.774525431e-14 DT = 8.687655892e-16
+Evolve time = 4.80099678 s; This step = 0.01047229767 s; Avg. per step = 0.04753462225 s
+
+STEP 102 starts ...
+STEP 102 ends. TIME = 8.861401874e-14 DT = 8.687655892e-16
+Evolve time = 4.811116219 s; This step = 0.01011943817 s; Avg. per step = 0.04716780782 s
+
+STEP 103 starts ...
+STEP 103 ends. TIME = 8.948278316e-14 DT = 8.687655892e-16
+Evolve time = 4.820556164 s; This step = 0.009439945221 s; Avg. per step = 0.04680151492 s
+
+STEP 104 starts ...
+STEP 104 ends. TIME = 9.035154759e-14 DT = 8.687655892e-16
+Evolve time = 4.830821991 s; This step = 0.01026582718 s; Avg. per step = 0.0464502126 s
+
+STEP 105 starts ...
+STEP 105 ends. TIME = 9.122031201e-14 DT = 8.687655892e-16
+Evolve time = 4.840930462 s; This step = 0.01010847092 s; Avg. per step = 0.0461040996 s
+
+STEP 106 starts ...
+STEP 106 ends. TIME = 9.208907644e-14 DT = 8.687655892e-16
+Evolve time = 4.851060867 s; This step = 0.01013040543 s; Avg. per step = 0.04576472566 s
+
+STEP 107 starts ...
+STEP 107 ends. TIME = 9.295784086e-14 DT = 8.687655892e-16
+Evolve time = 4.861145973 s; This step = 0.0100851059 s; Avg. per step = 0.0454312712 s
+
+STEP 108 starts ...
+STEP 108 ends. TIME = 9.382660529e-14 DT = 8.687655892e-16
+Evolve time = 4.870711803 s; This step = 0.009565830231 s; Avg. per step = 0.04509918392 s
+
+STEP 109 starts ...
+STEP 109 ends. TIME = 9.469536971e-14 DT = 8.687655892e-16
+Evolve time = 4.880628109 s; This step = 0.009916305542 s; Avg. per step = 0.04477640614 s
+
+STEP 110 starts ...
+--- INFO    : Writing Ascent file diags/diag1000110
+STEP 110 ends. TIME = 9.556413413e-14 DT = 8.687655892e-16
+Evolve time = 5.099199772 s; This step = 0.2185716629 s; Avg. per step = 0.04635636136 s
+
+STEP 111 starts ...
+STEP 111 ends. TIME = 9.643289856e-14 DT = 8.687655892e-16
+Evolve time = 5.109370708 s; This step = 0.01017093658 s; Avg. per step = 0.04603036493 s
+
+STEP 112 starts ...
+STEP 112 ends. TIME = 9.730166298e-14 DT = 8.687655892e-16
+Evolve time = 5.11913681 s; This step = 0.009766101837 s; Avg. per step = 0.0457065776 s
+
+STEP 113 starts ...
+STEP 113 ends. TIME = 9.817042741e-14 DT = 8.687655892e-16
+Evolve time = 5.128751755 s; This step = 0.009614944458 s; Avg. per step = 0.04538718238 s
+
+STEP 114 starts ...
+STEP 114 ends. TIME = 9.903919183e-14 DT = 8.687655892e-16
+Evolve time = 5.138586521 s; This step = 0.009834766388 s; Avg. per step = 0.04507531971 s
+
+STEP 115 starts ...
+STEP 115 ends. TIME = 9.990795626e-14 DT = 8.687655892e-16
+Evolve time = 5.148139954 s; This step = 0.009553432465 s; Avg. per step = 0.04476643354 s
+
+STEP 116 starts ...
+STEP 116 ends. TIME = 1.007767207e-13 DT = 8.687655892e-16
+Evolve time = 5.157763004 s; This step = 0.00962305069 s; Avg. per step = 0.0444634743 s
+
+STEP 117 starts ...
+STEP 117 ends. TIME = 1.016454851e-13 DT = 8.687655892e-16
+Evolve time = 5.167342186 s; This step = 0.009579181671 s; Avg. per step = 0.04416531697 s
+
+STEP 118 starts ...
+STEP 118 ends. TIME = 1.025142495e-13 DT = 8.687655892e-16
+Evolve time = 5.176909447 s; This step = 0.009567260742 s; Avg. per step = 0.04387211427 s
+
+STEP 119 starts ...
+STEP 119 ends. TIME = 1.03383014e-13 DT = 8.687655892e-16
+Evolve time = 5.186551571 s; This step = 0.009642124176 s; Avg. per step = 0.04358446598 s
+
+STEP 120 starts ...
+--- INFO    : Writing Ascent file diags/diag1000120
+STEP 120 ends. TIME = 1.042517784e-13 DT = 8.687655892e-16
+Evolve time = 5.415324211 s; This step = 0.2287726402 s; Avg. per step = 0.04512770101 s
+
+STEP 121 starts ...
+STEP 121 ends. TIME = 1.051205428e-13 DT = 8.687655892e-16
+Evolve time = 5.425511837 s; This step = 0.01018762589 s; Avg. per step = 0.04483894259 s
+
+STEP 122 starts ...
+STEP 122 ends. TIME = 1.059893072e-13 DT = 8.687655892e-16
+Evolve time = 5.435149193 s; This step = 0.009637355804 s; Avg. per step = 0.04455040395 s
+
+STEP 123 starts ...
+STEP 123 ends. TIME = 1.068580717e-13 DT = 8.687655892e-16
+Evolve time = 5.444707394 s; This step = 0.009558200836 s; Avg. per step = 0.04426591471 s
+
+STEP 124 starts ...
+STEP 124 ends. TIME = 1.077268361e-13 DT = 8.687655892e-16
+Evolve time = 5.454316616 s; This step = 0.009609222412 s; Avg. per step = 0.0439864248 s
+
+STEP 125 starts ...
+STEP 125 ends. TIME = 1.085956005e-13 DT = 8.687655892e-16
+Evolve time = 5.463950157 s; This step = 0.009633541107 s; Avg. per step = 0.04371160269 s
+
+STEP 126 starts ...
+STEP 126 ends. TIME = 1.094643649e-13 DT = 8.687655892e-16
+Evolve time = 5.473530293 s; This step = 0.009580135345 s; Avg. per step = 0.0434407182 s
+
+STEP 127 starts ...
+STEP 127 ends. TIME = 1.103331294e-13 DT = 8.687655892e-16
+Evolve time = 5.483152866 s; This step = 0.009622573853 s; Avg. per step = 0.04317443073 s
+
+STEP 128 starts ...
+STEP 128 ends. TIME = 1.112018938e-13 DT = 8.687655892e-16
+Evolve time = 5.493030071 s; This step = 0.009877204895 s; Avg. per step = 0.04291429743 s
+
+STEP 129 starts ...
+STEP 129 ends. TIME = 1.120706582e-13 DT = 8.687655892e-16
+Evolve time = 5.502555847 s; This step = 0.009525775909 s; Avg. per step = 0.04265547171 s
+
+STEP 130 starts ...
+--- INFO    : Writing Ascent file diags/diag1000130
+STEP 130 ends. TIME = 1.129394226e-13 DT = 8.687655892e-16
+Evolve time = 5.705299854 s; This step = 0.2027440071 s; Avg. per step = 0.0438869223 s
+
+STEP 131 starts ...
+STEP 131 ends. TIME = 1.13808187e-13 DT = 8.687655892e-16
+Evolve time = 5.7152915 s; This step = 0.009991645813 s; Avg. per step = 0.04362817854 s
+
+STEP 132 starts ...
+STEP 132 ends. TIME = 1.146769583e-13 DT = 8.687655892e-16
+Evolve time = 5.725070477 s; This step = 0.00977897644 s; Avg. per step = 0.04337174445 s
+
+STEP 133 starts ...
+STEP 133 ends. TIME = 1.155457295e-13 DT = 8.687655892e-16
+Evolve time = 5.734662056 s; This step = 0.009591579437 s; Avg. per step = 0.04311776161 s
+
+STEP 134 starts ...
+STEP 134 ends. TIME = 1.164145007e-13 DT = 8.687655892e-16
+Evolve time = 5.744240284 s; This step = 0.009578227997 s; Avg. per step = 0.04286746308 s
+
+STEP 135 starts ...
+STEP 135 ends. TIME = 1.172832719e-13 DT = 8.687655892e-16
+Evolve time = 5.754038811 s; This step = 0.009798526764 s; Avg. per step = 0.04262251034 s
+
+STEP 136 starts ...
+STEP 136 ends. TIME = 1.181520431e-13 DT = 8.687655892e-16
+Evolve time = 5.763736248 s; This step = 0.009697437286 s; Avg. per step = 0.0423804149 s
+
+STEP 137 starts ...
+STEP 137 ends. TIME = 1.190208143e-13 DT = 8.687655892e-16
+Evolve time = 5.773639202 s; This step = 0.009902954102 s; Avg. per step = 0.04214335233 s
+
+STEP 138 starts ...
+STEP 138 ends. TIME = 1.198895855e-13 DT = 8.687655892e-16
+Evolve time = 5.783191204 s; This step = 0.009552001953 s; Avg. per step = 0.04190718383 s
+
+STEP 139 starts ...
+STEP 139 ends. TIME = 1.207583567e-13 DT = 8.687655892e-16
+Evolve time = 5.792763233 s; This step = 0.009572029114 s; Avg. per step = 0.04167455435 s
+
+STEP 140 starts ...
+--- INFO    : Writing Ascent file diags/diag1000140
+STEP 140 ends. TIME = 1.216271279e-13 DT = 8.687655892e-16
+Evolve time = 5.998673439 s; This step = 0.2059102058 s; Avg. per step = 0.04284766689 s
+
+STEP 141 starts ...
+STEP 141 ends. TIME = 1.224958991e-13 DT = 8.687655892e-16
+Evolve time = 6.008687019 s; This step = 0.01001358032 s; Avg. per step = 0.04261480272 s
+
+STEP 142 starts ...
+STEP 142 ends. TIME = 1.233646703e-13 DT = 8.687655892e-16
+Evolve time = 6.018355846 s; This step = 0.009668827057 s; Avg. per step = 0.04238278791 s
+
+STEP 143 starts ...
+STEP 143 ends. TIME = 1.242334415e-13 DT = 8.687655892e-16
+Evolve time = 6.027976036 s; This step = 0.009620189667 s; Avg. per step = 0.04215367883 s
+
+STEP 144 starts ...
+STEP 144 ends. TIME = 1.251022127e-13 DT = 8.687655892e-16
+Evolve time = 6.037624836 s; This step = 0.009648799896 s; Avg. per step = 0.04192794859 s
+
+STEP 145 starts ...
+STEP 145 ends. TIME = 1.259709839e-13 DT = 8.687655892e-16
+Evolve time = 6.047229767 s; This step = 0.009604930878 s; Avg. per step = 0.04170503467 s
+
+STEP 146 starts ...
+STEP 146 ends. TIME = 1.268397551e-13 DT = 8.687655892e-16
+Evolve time = 6.056879997 s; This step = 0.009650230408 s; Avg. per step = 0.04148548096 s
+
+STEP 147 starts ...
+STEP 147 ends. TIME = 1.277085263e-13 DT = 8.687655892e-16
+Evolve time = 6.066439629 s; This step = 0.009559631348 s; Avg. per step = 0.04126829654 s
+
+STEP 148 starts ...
+STEP 148 ends. TIME = 1.285772975e-13 DT = 8.687655892e-16
+Evolve time = 6.076057434 s; This step = 0.009617805481 s; Avg. per step = 0.04105444252 s
+
+STEP 149 starts ...
+STEP 149 ends. TIME = 1.294460687e-13 DT = 8.687655892e-16
+Evolve time = 6.085646152 s; This step = 0.009588718414 s; Avg. per step = 0.04084326327 s
+
+STEP 150 starts ...
+--- INFO    : Writing Ascent file diags/diag1000150
+STEP 150 ends. TIME = 1.303148399e-13 DT = 8.687655892e-16
+Evolve time = 6.293167591 s; This step = 0.2075214386 s; Avg. per step = 0.04195445031 s
+
+STEP 151 starts ...
+STEP 151 ends. TIME = 1.311836111e-13 DT = 8.687655892e-16
+Evolve time = 6.30360508 s; This step = 0.01043748856 s; Avg. per step = 0.04174572974 s
+
+STEP 152 starts ...
+STEP 152 ends. TIME = 1.320523823e-13 DT = 8.687655892e-16
+Evolve time = 6.313810825 s; This step = 0.0102057457 s; Avg. per step = 0.04153822735 s
+
+STEP 153 starts ...
+STEP 153 ends. TIME = 1.329211535e-13 DT = 8.687655892e-16
+Evolve time = 6.323477268 s; This step = 0.009666442871 s; Avg. per step = 0.04132991657 s
+
+STEP 154 starts ...
+STEP 154 ends. TIME = 1.337899247e-13 DT = 8.687655892e-16
+Evolve time = 6.333171844 s; This step = 0.009694576263 s; Avg. per step = 0.04112449288 s
+
+STEP 155 starts ...
+STEP 155 ends. TIME = 1.346586959e-13 DT = 8.687655892e-16
+Evolve time = 6.342226982 s; This step = 0.009055137634 s; Avg. per step = 0.04091759399 s
+
+STEP 156 starts ...
+STEP 156 ends. TIME = 1.355274671e-13 DT = 8.687655892e-16
+Evolve time = 6.352401257 s; This step = 0.01017427444 s; Avg. per step = 0.0407205224 s
+
+STEP 157 starts ...
+STEP 157 ends. TIME = 1.363962383e-13 DT = 8.687655892e-16
+Evolve time = 6.362529755 s; This step = 0.01012849808 s; Avg. per step = 0.04052566737 s
+
+STEP 158 starts ...
+STEP 158 ends. TIME = 1.372650095e-13 DT = 8.687655892e-16
+Evolve time = 6.372596741 s; This step = 0.01006698608 s; Avg. per step = 0.04033289105 s
+
+STEP 159 starts ...
+STEP 159 ends. TIME = 1.381337807e-13 DT = 8.687655892e-16
+Evolve time = 6.382165909 s; This step = 0.009569168091 s; Avg. per step = 0.04013940692 s
+
+STEP 160 starts ...
+--- INFO    : Writing Ascent file diags/diag1000160
+STEP 160 ends. TIME = 1.390025519e-13 DT = 8.687655892e-16
+Evolve time = 6.594758987 s; This step = 0.2125930786 s; Avg. per step = 0.04121724516 s
+
+STEP 161 starts ...
+STEP 161 ends. TIME = 1.398713231e-13 DT = 8.687655892e-16
+Evolve time = 6.604976654 s; This step = 0.01021766663 s; Avg. per step = 0.04102469981 s
+
+STEP 162 starts ...
+STEP 162 ends. TIME = 1.407400943e-13 DT = 8.687655892e-16
+Evolve time = 6.614589214 s; This step = 0.009612560272 s; Avg. per step = 0.04083079845 s
+
+STEP 163 starts ...
+STEP 163 ends. TIME = 1.416088655e-13 DT = 8.687655892e-16
+Evolve time = 6.624186039 s; This step = 0.009596824646 s; Avg. per step = 0.04063917696 s
+
+STEP 164 starts ...
+STEP 164 ends. TIME = 1.424776367e-13 DT = 8.687655892e-16
+Evolve time = 6.633803844 s; This step = 0.009617805481 s; Avg. per step = 0.04045002162 s
+
+STEP 165 starts ...
+STEP 165 ends. TIME = 1.433464079e-13 DT = 8.687655892e-16
+Evolve time = 6.643721104 s; This step = 0.009917259216 s; Avg. per step = 0.04026497528 s
+
+STEP 166 starts ...
+STEP 166 ends. TIME = 1.442151791e-13 DT = 8.687655892e-16
+Evolve time = 6.653288841 s; This step = 0.009567737579 s; Avg. per step = 0.04008005187 s
+
+STEP 167 starts ...
+STEP 167 ends. TIME = 1.450839503e-13 DT = 8.687655892e-16
+Evolve time = 6.662925243 s; This step = 0.00963640213 s; Avg. per step = 0.03989775479 s
+
+STEP 168 starts ...
+STEP 168 ends. TIME = 1.459527215e-13 DT = 8.687655892e-16
+Evolve time = 6.672491074 s; This step = 0.009565830231 s; Avg. per step = 0.03971720859 s
+
+STEP 169 starts ...
+STEP 169 ends. TIME = 1.468214927e-13 DT = 8.687655892e-16
+Evolve time = 6.682230473 s; This step = 0.009739398956 s; Avg. per step = 0.03953982517 s
+
+STEP 170 starts ...
+--- INFO    : Writing Ascent file diags/diag1000170
+STEP 170 ends. TIME = 1.476902639e-13 DT = 8.687655892e-16
+Evolve time = 6.900859833 s; This step = 0.2186293602 s; Avg. per step = 0.04059329256 s
+
+STEP 171 starts ...
+STEP 171 ends. TIME = 1.485590351e-13 DT = 8.687655892e-16
+Evolve time = 6.911019325 s; This step = 0.01015949249 s; Avg. per step = 0.04041531682 s
+
+STEP 172 starts ...
+STEP 172 ends. TIME = 1.494278063e-13 DT = 8.687655892e-16
+Evolve time = 6.920699596 s; This step = 0.009680271149 s; Avg. per step = 0.04023662582 s
+
+STEP 173 starts ...
+STEP 173 ends. TIME = 1.502965775e-13 DT = 8.687655892e-16
+Evolve time = 6.930361271 s; This step = 0.0096616745 s; Avg. per step = 0.0400598906 s
+
+STEP 174 starts ...
+STEP 174 ends. TIME = 1.511653487e-13 DT = 8.687655892e-16
+Evolve time = 6.939979553 s; This step = 0.009618282318 s; Avg. per step = 0.03988493979 s
+
+STEP 175 starts ...
+STEP 175 ends. TIME = 1.520341199e-13 DT = 8.687655892e-16
+Evolve time = 6.950059891 s; This step = 0.01008033752 s; Avg. per step = 0.03971462697 s
+
+STEP 176 starts ...
+STEP 176 ends. TIME = 1.529028911e-13 DT = 8.687655892e-16
+Evolve time = 6.96029377 s; This step = 0.01023387909 s; Avg. per step = 0.03954712301 s
+
+STEP 177 starts ...
+STEP 177 ends. TIME = 1.537716623e-13 DT = 8.687655892e-16
+Evolve time = 6.970551491 s; This step = 0.01025772095 s; Avg. per step = 0.03938164562 s
+
+STEP 178 starts ...
+STEP 178 ends. TIME = 1.546404335e-13 DT = 8.687655892e-16
+Evolve time = 6.980629444 s; This step = 0.01007795334 s; Avg. per step = 0.03921701759 s
+
+STEP 179 starts ...
+STEP 179 ends. TIME = 1.555092047e-13 DT = 8.687655892e-16
+Evolve time = 6.990768909 s; This step = 0.01013946533 s; Avg. per step = 0.03905457631 s
+
+STEP 180 starts ...
+--- INFO    : Writing Ascent file diags/diag1000180
+STEP 180 ends. TIME = 1.563779759e-13 DT = 8.687655892e-16
+Evolve time = 7.201980591 s; This step = 0.2112116814 s; Avg. per step = 0.04001100361 s
+
+STEP 181 starts ...
+STEP 181 ends. TIME = 1.572467471e-13 DT = 8.687655892e-16
+Evolve time = 7.212500572 s; This step = 0.01051998138 s; Avg. per step = 0.03984807059 s
+
+STEP 182 starts ...
+STEP 182 ends. TIME = 1.581155183e-13 DT = 8.687655892e-16
+Evolve time = 7.222462177 s; This step = 0.009961605072 s; Avg. per step = 0.0396838598 s
+
+STEP 183 starts ...
+STEP 183 ends. TIME = 1.589842895e-13 DT = 8.687655892e-16
+Evolve time = 7.232106209 s; This step = 0.009644031525 s; Avg. per step = 0.03951970488 s
+
+STEP 184 starts ...
+STEP 184 ends. TIME = 1.598530607e-13 DT = 8.687655892e-16
+Evolve time = 7.241762638 s; This step = 0.009656429291 s; Avg. per step = 0.03935740516 s
+
+STEP 185 starts ...
+STEP 185 ends. TIME = 1.607218319e-13 DT = 8.687655892e-16
+Evolve time = 7.251580715 s; This step = 0.009818077087 s; Avg. per step = 0.03919773176 s
+
+STEP 186 starts ...
+STEP 186 ends. TIME = 1.615906031e-13 DT = 8.687655892e-16
+Evolve time = 7.261188984 s; This step = 0.009608268738 s; Avg. per step = 0.03903865069 s
+
+STEP 187 starts ...
+STEP 187 ends. TIME = 1.624593743e-13 DT = 8.687655892e-16
+Evolve time = 7.27080965 s; This step = 0.009620666504 s; Avg. per step = 0.03888133541 s
+
+STEP 188 starts ...
+STEP 188 ends. TIME = 1.633281455e-13 DT = 8.687655892e-16
+Evolve time = 7.280404091 s; This step = 0.00959444046 s; Avg. per step = 0.03872555494 s
+
+STEP 189 starts ...
+STEP 189 ends. TIME = 1.641969167e-13 DT = 8.687655892e-16
+Evolve time = 7.290036678 s; This step = 0.009632587433 s; Avg. per step = 0.03857162222 s
+
+STEP 190 starts ...
+--- INFO    : Writing Ascent file diags/diag1000190
+STEP 190 ends. TIME = 1.650656879e-13 DT = 8.687655892e-16
+Evolve time = 7.505450249 s; This step = 0.2154135704 s; Avg. per step = 0.0395023711 s
+
+STEP 191 starts ...
+STEP 191 ends. TIME = 1.659344591e-13 DT = 8.687655892e-16
+Evolve time = 7.515572548 s; This step = 0.01012229919 s; Avg. per step = 0.03934854642 s
+
+STEP 192 starts ...
+STEP 192 ends. TIME = 1.668032303e-13 DT = 8.687655892e-16
+Evolve time = 7.525594234 s; This step = 0.01002168655 s; Avg. per step = 0.03919580206 s
+
+STEP 193 starts ...
+STEP 193 ends. TIME = 1.676720015e-13 DT = 8.687655892e-16
+Evolve time = 7.535436153 s; This step = 0.009841918945 s; Avg. per step = 0.03904370964 s
+
+STEP 194 starts ...
+STEP 194 ends. TIME = 1.685407727e-13 DT = 8.687655892e-16
+Evolve time = 7.545080662 s; This step = 0.009644508362 s; Avg. per step = 0.03889216855 s
+
+STEP 195 starts ...
+STEP 195 ends. TIME = 1.694095439e-13 DT = 8.687655892e-16
+Evolve time = 7.554662704 s; This step = 0.009582042694 s; Avg. per step = 0.03874186054 s
+
+STEP 196 starts ...
+STEP 196 ends. TIME = 1.702783151e-13 DT = 8.687655892e-16
+Evolve time = 7.564303398 s; This step = 0.009640693665 s; Avg. per step = 0.03859338537 s
+
+STEP 197 starts ...
+STEP 197 ends. TIME = 1.711470863e-13 DT = 8.687655892e-16
+Evolve time = 7.573936462 s; This step = 0.00963306427 s; Avg. per step = 0.03844637796 s
+
+STEP 198 starts ...
+STEP 198 ends. TIME = 1.720158575e-13 DT = 8.687655892e-16
+Evolve time = 7.583574295 s; This step = 0.009637832642 s; Avg. per step = 0.0383008793 s
+
+STEP 199 starts ...
+STEP 199 ends. TIME = 1.728846287e-13 DT = 8.687655892e-16
+Evolve time = 7.593279362 s; This step = 0.009705066681 s; Avg. per step = 0.03815718368 s
+
+STEP 200 starts ...
+--- INFO    : Writing Ascent file diags/diag1000200
+STEP 200 ends. TIME = 1.737533999e-13 DT = 8.687655892e-16
+Evolve time = 7.805284023 s; This step = 0.2120046616 s; Avg. per step = 0.03902642056 s
+
+Total Time                     : 7.95138073
+
+
+TinyProfiler total time across processes [min...avg...max]: 7.952 ... 7.952 ... 7.952
+
+----------------------------------------------------------------------------------------------------------
+Name                                                       NCalls  Excl. Min  Excl. Avg  Excl. Max   Max %
+----------------------------------------------------------------------------------------------------------
+FlushFormatAscent::WriteToFile::execute                        21      4.434      4.592      5.662  71.21%
+FillBoundary_finish()                                        3743    0.08893      1.125      1.701  21.39%
+FabArray::ParallelCopy_finish()                               622     0.1206     0.5847      1.279  16.08%
+WarpXParticleContainer::DepositCurrent::CurrentDeposition    1934   0.009681     0.2554     0.4691   5.90%
+PhysicalParticleContainer::Evolve::GatherAndPush             1834   0.009748     0.2421     0.4344   5.46%
+ParticleContainer::RedistributeMPI()                          604     0.0265      0.164     0.3114   3.92%
+WarpXParticleContainer::DepositCurrent::Accumulate           1934    0.01245     0.1287     0.2203   2.77%
+Filter::ApplyStencil(MultiFab)                                622      0.194     0.1988     0.2083   2.62%
+ParticleContainer::RedistributeCPU()                          604    0.01248    0.09899     0.1711   2.15%
+WarpXParticleContainer::ApplyBoundaryConditions()             400   0.002306    0.05454     0.1139   1.43%
+FlushFormatAscent::WriteToFile::publish                        21    0.04433    0.06766    0.09428   1.19%
+FillBoundary_nowait()                                        3743    0.06162    0.07331    0.07808   0.98%
+sample::Coarsen()                                             220    0.07106     0.0714    0.07158   0.90%
+ParticleContainerToBlueprint()                                 21    0.02635    0.04284    0.06291   0.79%
+WarpX::EvolveE()                                              200    0.04037    0.04074    0.04132   0.52%
+WarpX::EvolveB()                                              400    0.03535    0.03594    0.03657   0.46%
+amrex::Copy()                                                2379    0.03272    0.03332    0.03385   0.43%
+FabArray::ParallelCopy_nowait()                               622    0.02463     0.0301    0.03216   0.40%
+PhysicalParticleContainer::Evolve()                           200   0.001393   0.009563    0.01612   0.20%
+FabArray::setVal()                                           1307    0.01526    0.01549    0.01595   0.20%
+WarpX::shiftMF()                                             1179     0.0147    0.01488     0.0154   0.19%
+PhysicalParticleContainer::AddPlasma()                        186   0.001482   0.003019     0.0131   0.16%
+ablastr::particles::deposit_charge::Accumulate                219   0.001134   0.006683    0.01137   0.14%
+MultiLevelToBlueprint()                                        21   0.008815   0.009072   0.009336   0.12%
+ablastr::utils::communication::FillBoundary                  3739   0.007504   0.007624   0.007825   0.10%
+WarpX::InitData()                                               1   0.001037   0.002017   0.007757   0.10%
+ablastr::particles::deposit_charge::ChargeDeposition          219  0.0004115   0.004189   0.007239   0.09%
+FlushFormatAscent::WriteToFile()                               21   0.001732   0.004726   0.007172   0.09%
+WarpX::Evolve::step                                           200   0.003396   0.003569    0.00433   0.05%
+LaserParticleContainer::Evolve::ParticlePush                  100          0   0.002602   0.003721   0.05%
+PhysicalParticleContainer::PushP()                              2   0.000869   0.001938   0.003606   0.05%
+RedistributeMPI_locate                                        209  7.042e-05   0.001684   0.003406   0.04%
+Diagnostics::FilterComputePackFlush()                         202   0.001131   0.002116   0.002939   0.04%
+main()                                                          1   0.001611   0.001955   0.002916   0.04%
+FabArrayBase::getFB()                                        3743   0.002113   0.002185   0.002311   0.03%
+ParticleContainer::BuildRedistributeMask                      800   0.002109   0.002196   0.002237   0.03%
+RedistributeMPI_copy                                          209  9.286e-05   0.001067   0.001901   0.02%
+FabArray::FillBoundary()                                     2543   0.001585   0.001664   0.001722   0.02%
+WarpX::SyncCurrent()                                          200   0.001602   0.001641   0.001684   0.02%
+MultiReducedDiags::ComputeDiags()                             201  0.0002911  0.0005227   0.001594   0.02%
+MultiFab::Copy()                                             1779   0.001211   0.001228   0.001273   0.02%
+LaserParticleContainer::Evolve()                              200  0.0003365  0.0008745   0.001103   0.01%
+DistributionMapping::LeastUsedCPUs()                            2   7.31e-05  0.0009101   0.001059   0.01%
+FabArray<FAB>::SumBoundary_nowait()                           600   0.000925  0.0009368  0.0009498   0.01%
+WarpX::OneStep_nosub()                                        200  0.0008346  0.0008553  0.0008824   0.01%
+amrex::Add()                                                   44  0.0007765  0.0008114  0.0008641   0.01%
+FabArray::FillBoundaryAndSync()                              1200  0.0007297  0.0007694  0.0008127   0.01%
+FabArray<FAB>::SumBoundary_finish()                           600  0.0007474  0.0007696    0.00079   0.01%
+WarpX::MoveWindow                                             200  0.0006587  0.0006835  0.0007047   0.01%
+FillBoundaryAndSync_finish()                                 1200  0.0005475  0.0005855  0.0006164   0.01%
+FillBoundaryAndSync_nowait()                                 1200  0.0004863  0.0005063  0.0005269   0.01%
+ablastr::utils::communication::SumBoundary                    600  0.0004047  0.0004232  0.0004528   0.01%
+FabArray<FAB>::SumBoundary()                                  600  0.0004072  0.0004163  0.0004392   0.01%
+FabArrayBase::FB::FB()                                         20  0.0002801   0.000384  0.0004184   0.01%
+FabArrayBase::getCPC()                                        622  0.0003092  0.0003196  0.0003318   0.00%
+WarpX::UpdateAuxilaryData()                                   223   0.000153  0.0001637  0.0001969   0.00%
+ParticleBoundaryBuffer::gatherParticles                       200  0.0001505  0.0001603  0.0001745   0.00%
+MultiParticleContainer::doFieldIonization()                   200  0.0001453  0.0001539  0.0001744   0.00%
+WarpX::SyncRho()                                              200  0.0001114  0.0001202  0.0001322   0.00%
+DistributionMapping::SFCProcessorMapDoIt()                      2  2.099e-05   8.22e-05  0.0001188   0.00%
+MultiParticleContainer::doCollisions()                        200  8.515e-05  8.938e-05  9.998e-05   0.00%
+FlushFormatAscent::WriteToFile::MultiLevelToBlueprint          21  3.944e-05  4.628e-05   6.11e-05   0.00%
+FlushFormatAscent::WriteParticles()                            21  5.503e-05  5.763e-05  6.093e-05   0.00%
+WarpX::Evolve()                                                 1   4.63e-05  4.801e-05  5.014e-05   0.00%
+FabArrayBase::CPC::define()                                     4  3.967e-05  4.648e-05  4.936e-05   0.00%
+MultiFab::Add()                                                44  3.213e-05   3.55e-05  3.703e-05   0.00%
+FlushFormatAscent::WriteToFile::WriteParticles                 21  2.662e-05  2.927e-05  3.434e-05   0.00%
+FabArray::ParallelCopy()                                       22  2.362e-05  2.542e-05  2.842e-05   0.00%
+PhysicalParticleContainer::AddParticles()                       2  3.206e-06  7.078e-06  1.365e-05   0.00%
+DistributionMapping::Distribute()                               2  2.976e-06  8.089e-06  1.154e-05   0.00%
+REG::WarpX::Evolve()                                            1  1.543e-06  1.878e-06  2.825e-06   0.00%
+WarpX::ComputeSpaceChargeField                                  1   7.01e-07  8.204e-07  1.172e-06   0.00%
+BilinearFilter::ComputeStencils()                               1   9.32e-07  1.007e-06  1.082e-06   0.00%
+----------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------
+Name                                                       NCalls  Incl. Min  Incl. Avg  Incl. Max   Max %
+----------------------------------------------------------------------------------------------------------
+main()                                                          1      7.951      7.951      7.951  99.99%
+REG::WarpX::Evolve()                                            1      7.814       7.87      7.879  99.09%
+WarpX::Evolve()                                                 1      7.814       7.87      7.879  99.09%
+WarpX::Evolve::step                                           200      7.808      7.816      7.818  98.31%
+Diagnostics::FilterComputePackFlush()                         202       4.73      4.881      5.897  74.15%
+FlushFormatAscent::WriteToFile()                               21      4.555      4.717      5.794  72.86%
+FlushFormatAscent::WriteToFile::execute                        21      4.434      4.592      5.662  71.21%
+WarpX::OneStep_nosub()                                        200      1.617      1.764       2.77  34.83%
+ablastr::utils::communication::FillBoundary                  3739     0.1648      1.211       1.79  22.51%
+FillBoundary_finish()                                        3743    0.08893      1.125      1.701  21.39%
+WarpX::SyncCurrent()                                          200     0.3595     0.8186      1.456  18.31%
+FabArray::FillBoundary()                                     2543    0.06383     0.9873        1.3  16.35%
+FabArray::ParallelCopy_finish()                               622     0.1206     0.5847      1.279  16.08%
+ablastr::utils::communication::SumBoundary                    600      0.164     0.6186       1.26  15.84%
+FabArray<FAB>::SumBoundary()                                  600     0.1636     0.6181      1.259  15.83%
+FabArray<FAB>::SumBoundary_finish()                           600     0.1192     0.5743      1.221  15.35%
+PhysicalParticleContainer::Evolve()                           200    0.03327     0.6216      1.126  14.16%
+FabArray::FillBoundaryAndSync()                              1200    0.03049      0.217     0.6839   8.60%
+FillBoundaryAndSync_finish()                                 1200   0.006073     0.1941     0.6645   8.36%
+WarpXParticleContainer::DepositCurrent::CurrentDeposition    1934   0.009681     0.2554     0.4691   5.90%
+PhysicalParticleContainer::Evolve::GatherAndPush             1834   0.009748     0.2421     0.4344   5.46%
+ParticleContainer::RedistributeCPU()                          604     0.2005     0.2691     0.3276   4.12%
+ParticleContainer::RedistributeMPI()                          604    0.02686     0.1669     0.3123   3.93%
+WarpXParticleContainer::DepositCurrent::Accumulate           1934    0.01245     0.1287     0.2203   2.77%
+Filter::ApplyStencil(MultiFab)                                622      0.194     0.1988     0.2083   2.62%
+WarpX::InitData()                                               1     0.0703    0.07938      0.135   1.70%
+WarpXParticleContainer::ApplyBoundaryConditions()             400   0.002306    0.05454     0.1139   1.43%
+FlushFormatAscent::WriteToFile::publish                        21    0.04433    0.06766    0.09428   1.19%
+FillBoundary_nowait()                                        3743    0.06403    0.07588    0.08071   1.01%
+sample::Coarsen()                                             220    0.07106     0.0714    0.07158   0.90%
+WarpX::MoveWindow                                             200    0.06028    0.06191    0.07058   0.89%
+FlushFormatAscent::WriteToFile::WriteParticles                 21    0.02644    0.04293      0.063   0.79%
+FlushFormatAscent::WriteParticles()                            21    0.02641     0.0429    0.06297   0.79%
+ParticleContainerToBlueprint()                                 21    0.02635    0.04284    0.06291   0.79%
+FabArray::ParallelCopy()                                       22   0.003433    0.01249    0.06029   0.76%
+WarpX::shiftMF()                                             1179    0.05878    0.05912    0.05967   0.75%
+FabArray<FAB>::SumBoundary_nowait()                           600      0.038    0.04348    0.04562   0.57%
+WarpX::EvolveE()                                              200    0.04037    0.04074    0.04132   0.52%
+WarpX::EvolveB()                                              400    0.03535    0.03594    0.03657   0.46%
+amrex::Copy()                                                2379    0.03272    0.03332    0.03385   0.43%
+FabArray::ParallelCopy_nowait()                               622    0.02501    0.03047    0.03251   0.41%
+MultiFab::Copy()                                             1779    0.02466    0.02519    0.02557   0.32%
+LaserParticleContainer::Evolve()                              200  0.0003365    0.01763    0.02473   0.31%
+FillBoundaryAndSync_nowait()                                 1200     0.0178     0.0221    0.02365   0.30%
+FabArray::setVal()                                           1307    0.01526    0.01549    0.01595   0.20%
+PhysicalParticleContainer::AddPlasma()                        186   0.001482   0.003019     0.0131   0.16%
+ablastr::particles::deposit_charge::Accumulate                219   0.001134   0.006683    0.01137   0.14%
+FlushFormatAscent::WriteToFile::MultiLevelToBlueprint          21   0.008861   0.009118   0.009383   0.12%
+MultiLevelToBlueprint()                                        21   0.008815   0.009072   0.009336   0.12%
+ablastr::particles::deposit_charge::ChargeDeposition          219  0.0004115   0.004189   0.007239   0.09%
+ParticleContainer::BuildRedistributeMask                      800   0.002764    0.00341   0.004417   0.06%
+LaserParticleContainer::Evolve::ParticlePush                  100          0   0.002602   0.003721   0.05%
+PhysicalParticleContainer::PushP()                              2   0.000869   0.001938   0.003606   0.05%
+RedistributeMPI_locate                                        209  7.042e-05   0.001684   0.003406   0.04%
+FabArrayBase::getFB()                                        3743   0.002415   0.002569   0.002632   0.03%
+PhysicalParticleContainer::AddParticles()                       2  0.0006566  0.0009216   0.002097   0.03%
+RedistributeMPI_copy                                          209  9.286e-05   0.001067   0.001901   0.02%
+MultiReducedDiags::ComputeDiags()                             201  0.0002911  0.0005227   0.001594   0.02%
+DistributionMapping::SFCProcessorMapDoIt()                      2  9.706e-05      0.001    0.00115   0.01%
+DistributionMapping::LeastUsedCPUs()                            2   7.31e-05  0.0009101   0.001059   0.01%
+MultiFab::Add()                                                44  0.0008118  0.0008469  0.0009005   0.01%
+amrex::Add()                                                   44  0.0007765  0.0008114  0.0008641   0.01%
+FabArrayBase::FB::FB()                                         20  0.0002801   0.000384  0.0004184   0.01%
+FabArrayBase::getCPC()                                        622  0.0003581  0.0003661  0.0003764   0.00%
+WarpX::UpdateAuxilaryData()                                   223   0.000153  0.0001637  0.0001969   0.00%
+ParticleBoundaryBuffer::gatherParticles                       200  0.0001505  0.0001603  0.0001745   0.00%
+MultiParticleContainer::doFieldIonization()                   200  0.0001453  0.0001539  0.0001744   0.00%
+WarpX::SyncRho()                                              200  0.0001114  0.0001202  0.0001322   0.00%
+MultiParticleContainer::doCollisions()                        200  8.515e-05  8.938e-05  9.998e-05   0.00%
+FabArrayBase::CPC::define()                                     4  3.967e-05  4.648e-05  4.936e-05   0.00%
+DistributionMapping::Distribute()                               2  2.976e-06  8.089e-06  1.154e-05   0.00%
+WarpX::ComputeSpaceChargeField                                  1   7.01e-07  8.204e-07  1.172e-06   0.00%
+BilinearFilter::ComputeStencils()                               1   9.32e-07  1.007e-06  1.082e-06   0.00%
+----------------------------------------------------------------------------------------------------------
+
+
+
+BEGIN REGION WarpX::Evolve()
+
+----------------------------------------------------------------------------------------------------------
+Name                                                       NCalls  Excl. Min  Excl. Avg  Excl. Max   Max %
+----------------------------------------------------------------------------------------------------------
+FlushFormatAscent::WriteToFile::execute                        20      4.387      4.537      5.553  69.83%
+FillBoundary_finish()                                        3736    0.08875      1.123      1.698  21.35%
+FabArray::ParallelCopy_finish()                               621     0.1205     0.5843      1.277  16.06%
+WarpXParticleContainer::DepositCurrent::CurrentDeposition    1934   0.009681     0.2554     0.4691   5.90%
+PhysicalParticleContainer::Evolve::GatherAndPush             1834   0.009748     0.2421     0.4344   5.46%
+ParticleContainer::RedistributeMPI()                          600      0.026     0.1619     0.3091   3.89%
+WarpXParticleContainer::DepositCurrent::Accumulate           1934    0.01245     0.1287     0.2203   2.77%
+Filter::ApplyStencil(MultiFab)                                621     0.1935     0.1982     0.2078   2.61%
+ParticleContainer::RedistributeCPU()                          600    0.01212    0.09854     0.1702   2.14%
+WarpXParticleContainer::ApplyBoundaryConditions()             400   0.002306    0.05454     0.1139   1.43%
+FlushFormatAscent::WriteToFile::publish                        20    0.04088    0.06193    0.08803   1.11%
+FillBoundary_nowait()                                        3736    0.06108    0.07262    0.07735   0.97%
+sample::Coarsen()                                             210    0.06723    0.06756    0.06775   0.85%
+ParticleContainerToBlueprint()                                 20    0.02607    0.04203    0.05981   0.75%
+WarpX::EvolveE()                                              200    0.04037    0.04074    0.04132   0.52%
+WarpX::EvolveB()                                              400    0.03535    0.03594    0.03657   0.46%
+amrex::Copy()                                                2379    0.03272    0.03332    0.03385   0.43%
+FabArray::ParallelCopy_nowait()                               621    0.02457    0.03002    0.03207   0.40%
+PhysicalParticleContainer::Evolve()                           200   0.001393   0.009563    0.01612   0.20%
+WarpX::shiftMF()                                             1179     0.0147    0.01488     0.0154   0.19%
+FabArray::setVal()                                           1288     0.0144    0.01461    0.01505   0.19%
+PhysicalParticleContainer::AddPlasma()                        185  0.0008027   0.002104    0.01101   0.14%
+ablastr::particles::deposit_charge::Accumulate                216   0.001134   0.006566     0.0107   0.13%
+MultiLevelToBlueprint()                                        20   0.007861    0.00794   0.008053   0.10%
+ablastr::utils::communication::FillBoundary                  3732   0.007489   0.007609    0.00781   0.10%
+ablastr::particles::deposit_charge::ChargeDeposition          216  0.0004115   0.004119    0.00696   0.09%
+FlushFormatAscent::WriteToFile()                               20   0.001673   0.004639   0.006899   0.09%
+WarpX::Evolve::step                                           200   0.003396   0.003569    0.00433   0.05%
+LaserParticleContainer::Evolve::ParticlePush                  100          0   0.002602   0.003721   0.05%
+PhysicalParticleContainer::PushP()                              2   0.000869   0.001938   0.003606   0.05%
+RedistributeMPI_locate                                        208          0   0.001673   0.003402   0.04%
+Diagnostics::FilterComputePackFlush()                         201   0.001065   0.002011   0.002703   0.03%
+FabArrayBase::getFB()                                        3736   0.002099   0.002167   0.002284   0.03%
+ParticleContainer::BuildRedistributeMask                      800   0.002109   0.002196   0.002237   0.03%
+RedistributeMPI_copy                                          208          0   0.001052   0.001897   0.02%
+FabArray::FillBoundary()                                     2536   0.001578   0.001656   0.001715   0.02%
+WarpX::SyncCurrent()                                          200   0.001602   0.001641   0.001684   0.02%
+MultiFab::Copy()                                             1779   0.001211   0.001228   0.001273   0.02%
+LaserParticleContainer::Evolve()                              200  0.0003365  0.0008745   0.001103   0.01%
+FabArray<FAB>::SumBoundary_nowait()                           600   0.000925  0.0009368  0.0009498   0.01%
+WarpX::OneStep_nosub()                                        200  0.0008346  0.0008553  0.0008824   0.01%
+FabArray::FillBoundaryAndSync()                              1200  0.0007297  0.0007694  0.0008127   0.01%
+amrex::Add()                                                   42  0.0007333  0.0007637  0.0007961   0.01%
+FabArray<FAB>::SumBoundary_finish()                           600  0.0007474  0.0007696    0.00079   0.01%
+WarpX::MoveWindow                                             200  0.0006587  0.0006835  0.0007047   0.01%
+FillBoundaryAndSync_finish()                                 1200  0.0005475  0.0005855  0.0006164   0.01%
+FillBoundaryAndSync_nowait()                                 1200  0.0004863  0.0005063  0.0005269   0.01%
+ablastr::utils::communication::SumBoundary                    600  0.0004047  0.0004232  0.0004528   0.01%
+FabArray<FAB>::SumBoundary()                                  600  0.0004072  0.0004163  0.0004392   0.01%
+MultiReducedDiags::ComputeDiags()                             200  0.0002395  0.0002947  0.0003893   0.00%
+FabArrayBase::getCPC()                                        621  0.0003083  0.0003186  0.0003308   0.00%
+FabArrayBase::FB::FB()                                         13  0.0001708  0.0002243  0.0002521   0.00%
+WarpX::UpdateAuxilaryData()                                   222  0.0001499  0.0001598  0.0001859   0.00%
+ParticleBoundaryBuffer::gatherParticles                       200  0.0001505  0.0001603  0.0001745   0.00%
+MultiParticleContainer::doFieldIonization()                   200  0.0001453  0.0001539  0.0001744   0.00%
+WarpX::SyncRho()                                              200  0.0001114  0.0001202  0.0001322   0.00%
+MultiParticleContainer::doCollisions()                        200  8.515e-05  8.938e-05  9.998e-05   0.00%
+FlushFormatAscent::WriteParticles()                            20  5.213e-05   5.47e-05  5.789e-05   0.00%
+WarpX::Evolve()                                                 1   4.63e-05  4.801e-05  5.014e-05   0.00%
+FlushFormatAscent::WriteToFile::MultiLevelToBlueprint          20  3.217e-05  3.801e-05  4.131e-05   0.00%
+MultiFab::Add()                                                42  3.088e-05  3.419e-05  3.562e-05   0.00%
+FabArrayBase::CPC::define()                                     3  2.841e-05  3.291e-05  3.551e-05   0.00%
+FlushFormatAscent::WriteToFile::WriteParticles                 20  2.341e-05  2.429e-05  2.542e-05   0.00%
+FabArray::ParallelCopy()                                       21  2.073e-05  2.205e-05  2.494e-05   0.00%
+REG::WarpX::Evolve()                                            1  1.543e-06  1.878e-06  2.825e-06   0.00%
+----------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------
+Name                                                       NCalls  Incl. Min  Incl. Avg  Incl. Max   Max %
+----------------------------------------------------------------------------------------------------------
+REG::WarpX::Evolve()                                            1      7.814       7.87      7.879  99.09%
+WarpX::Evolve()                                                 1      7.814       7.87      7.879  99.09%
+WarpX::Evolve::step                                           200      7.808      7.816      7.818  98.31%
+Diagnostics::FilterComputePackFlush()                         201      4.667      4.809      5.774  72.61%
+FlushFormatAscent::WriteToFile()                               20        4.5      4.653      5.677  71.39%
+FlushFormatAscent::WriteToFile::execute                        20      4.387      4.537      5.553  69.83%
+WarpX::OneStep_nosub()                                        200      1.617      1.764       2.77  34.83%
+ablastr::utils::communication::FillBoundary                  3732     0.1639      1.208      1.786  22.46%
+FillBoundary_finish()                                        3736    0.08875      1.123      1.698  21.35%
+WarpX::SyncCurrent()                                          200     0.3595     0.8186      1.456  18.31%
+FabArray::FillBoundary()                                     2536    0.06315     0.9841      1.296  16.30%
+FabArray::ParallelCopy_finish()                               621     0.1205     0.5843      1.277  16.06%
+ablastr::utils::communication::SumBoundary                    600      0.164     0.6186       1.26  15.84%
+FabArray<FAB>::SumBoundary()                                  600     0.1636     0.6181      1.259  15.83%
+FabArray<FAB>::SumBoundary_finish()                           600     0.1192     0.5743      1.221  15.35%
+PhysicalParticleContainer::Evolve()                           200    0.03327     0.6216      1.126  14.16%
+FabArray::FillBoundaryAndSync()                              1200    0.03049      0.217     0.6839   8.60%
+FillBoundaryAndSync_finish()                                 1200   0.006073     0.1941     0.6645   8.36%
+WarpXParticleContainer::DepositCurrent::CurrentDeposition    1934   0.009681     0.2554     0.4691   5.90%
+PhysicalParticleContainer::Evolve::GatherAndPush             1834   0.009748     0.2421     0.4344   5.46%
+ParticleContainer::RedistributeCPU()                          600     0.1989     0.2666     0.3249   4.09%
+ParticleContainer::RedistributeMPI()                          600    0.02619     0.1648       0.31   3.90%
+WarpXParticleContainer::DepositCurrent::Accumulate           1934    0.01245     0.1287     0.2203   2.77%
+Filter::ApplyStencil(MultiFab)                                621     0.1935     0.1982     0.2078   2.61%
+WarpXParticleContainer::ApplyBoundaryConditions()             400   0.002306    0.05454     0.1139   1.43%
+FlushFormatAscent::WriteToFile::publish                        20    0.04088    0.06193    0.08803   1.11%
+FillBoundary_nowait()                                        3736    0.06339    0.07501    0.07978   1.00%
+WarpX::MoveWindow                                             200    0.06028    0.06191    0.07058   0.89%
+sample::Coarsen()                                             210    0.06723    0.06756    0.06775   0.85%
+FlushFormatAscent::WriteToFile::WriteParticles                 20    0.02615    0.04211     0.0599   0.75%
+FlushFormatAscent::WriteParticles()                            20    0.02612    0.04208    0.05987   0.75%
+ParticleContainerToBlueprint()                                 20    0.02607    0.04203    0.05981   0.75%
+WarpX::shiftMF()                                             1179    0.05878    0.05912    0.05967   0.75%
+FabArray::ParallelCopy()                                       21   0.003282    0.01198    0.05803   0.73%
+FabArray<FAB>::SumBoundary_nowait()                           600      0.038    0.04348    0.04562   0.57%
+WarpX::EvolveE()                                              200    0.04037    0.04074    0.04132   0.52%
+WarpX::EvolveB()                                              400    0.03535    0.03594    0.03657   0.46%
+amrex::Copy()                                                2379    0.03272    0.03332    0.03385   0.43%
+FabArray::ParallelCopy_nowait()                               621    0.02493    0.03038    0.03242   0.41%
+MultiFab::Copy()                                             1779    0.02466    0.02519    0.02557   0.32%
+LaserParticleContainer::Evolve()                              200  0.0003365    0.01763    0.02473   0.31%
+FillBoundaryAndSync_nowait()                                 1200     0.0178     0.0221    0.02365   0.30%
+FabArray::setVal()                                           1288     0.0144    0.01461    0.01505   0.19%
+PhysicalParticleContainer::AddPlasma()                        185  0.0008027   0.002104    0.01101   0.14%
+ablastr::particles::deposit_charge::Accumulate                216   0.001134   0.006566     0.0107   0.13%
+FlushFormatAscent::WriteToFile::MultiLevelToBlueprint          20   0.007894   0.007978   0.008093   0.10%
+MultiLevelToBlueprint()                                        20   0.007861    0.00794   0.008053   0.10%
+ablastr::particles::deposit_charge::ChargeDeposition          216  0.0004115   0.004119    0.00696   0.09%
+ParticleContainer::BuildRedistributeMask                      800   0.002764    0.00341   0.004417   0.06%
+LaserParticleContainer::Evolve::ParticlePush                  100          0   0.002602   0.003721   0.05%
+PhysicalParticleContainer::PushP()                              2   0.000869   0.001938   0.003606   0.05%
+RedistributeMPI_locate                                        208          0   0.001673   0.003402   0.04%
+FabArrayBase::getFB()                                        3736   0.002313   0.002392   0.002455   0.03%
+RedistributeMPI_copy                                          208          0   0.001052   0.001897   0.02%
+MultiFab::Add()                                                42  0.0007677  0.0007978  0.0008312   0.01%
+amrex::Add()                                                   42  0.0007333  0.0007637  0.0007961   0.01%
+MultiReducedDiags::ComputeDiags()                             200  0.0002395  0.0002947  0.0003893   0.00%
+FabArrayBase::getCPC()                                        621  0.0003438  0.0003515  0.0003597   0.00%
+FabArrayBase::FB::FB()                                         13  0.0001708  0.0002243  0.0002521   0.00%
+WarpX::UpdateAuxilaryData()                                   222  0.0001499  0.0001598  0.0001859   0.00%
+ParticleBoundaryBuffer::gatherParticles                       200  0.0001505  0.0001603  0.0001745   0.00%
+MultiParticleContainer::doFieldIonization()                   200  0.0001453  0.0001539  0.0001744   0.00%
+WarpX::SyncRho()                                              200  0.0001114  0.0001202  0.0001322   0.00%
+MultiParticleContainer::doCollisions()                        200  8.515e-05  8.938e-05  9.998e-05   0.00%
+FabArrayBase::CPC::define()                                     3  2.841e-05  3.291e-05  3.551e-05   0.00%
+----------------------------------------------------------------------------------------------------------
+
+END REGION WarpX::Evolve()
+Pinned Memory Usage:
+-----------------------------------------------------------------------------------------------------------------------------
+Name                                    Nalloc  Nfree  AvgMem min  AvgMem avg  AvgMem max  MaxMem min  MaxMem avg  MaxMem max
+-----------------------------------------------------------------------------------------------------------------------------
+The_Pinned_Arena::Initialize()               8      8    1465   B    1547   B    1606   B    8192 KiB    8192 KiB    8192 KiB
+WarpX::InitData()                          157    157       0   B       0   B       1   B      12 KiB      13 KiB      20 KiB
+main()                                     584    584     799   B     799   B     799   B     832   B     832   B     832   B
+PhysicalParticleContainer::AddPlasma()      16     16     159   B     159   B     159   B     160   B     160   B     160   B
+Unprofiled                                  88     88       0   B       0   B       0   B      32   B      32   B      32   B
+-----------------------------------------------------------------------------------------------------------------------------
+
+AMReX (23.03-3-g1ffc6e427e3a) finalized
+ey/contour/pc/p0 pseudocolor plot yielded no data, i.e., no cells remainey/contour/pc/p0 pseudocolor plot yielded no data, i.e., no cells remainey/contour/pc/p0 pseudocolor plot yielded no data, i.e., no cells remainey/contour/pc/p0 pseudocolor plot yielded no data, i.e., no cells remainey/contour/pc/p0 pseudocolor plot yielded no data, i.e., no cells remainey/contour/pc/p0 pseudocolor plot yielded no data, i.e., no cells remainey/contour/pc/p0 pseudocolor plot yielded no data, i.e., no cells remain
